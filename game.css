@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    text-align:center;
+    font-size: 20px;
+  }
+  
+  h1 {
+        color: rgb(172, 108, 108);
+  }
+  button {
+      color: red;
+      margin: 10px;
+  }
+  
+
+  
+  .field {
+    margin-top: 20px;
+    display: inline-block;
+    border: 2px solid black;
+  }
+  
+  .row {
+    height: 75px;
+   
+  }
+  
+  .cell {
+    display: inline-block;
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .hide {
+    background-image: none  !important;
+    background-color: rgb(145, 184, 166);
+  }
+  
